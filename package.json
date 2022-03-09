@@ -1,0 +1,25 @@
+{
+  "name": "mini-rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/main.js\"",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeancharlescano/mini-rpg.git"
+  },
+  "author": "Jean-Charles CANO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeancharlescano/mini-rpg/issues"
+  },
+  "homepage": "https://github.com/jeancharlescano/mini-rpg#readme"
+}
